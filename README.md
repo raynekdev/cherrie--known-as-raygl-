@@ -1,4 +1,4 @@
-# Cherrie (also known as RayGL
+# Cherrie (also known as RayGL)
 
 cherrie is a lightweight and powerful custom graphics api focused on performance and flexibility.it does not use opengl, vulkan, or directx – cherrie is built on its own custom rendering engine.
 
