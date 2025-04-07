@@ -1,6 +1,6 @@
-# raygl
+# Cherrie (also known as RayGL
 
-raygl is a lightweight and powerful custom graphics api focused on performance and flexibility.it does not use opengl, vulkan, or directx – raygl is built on its own custom rendering engine.
+cherrie is a lightweight and powerful custom graphics api focused on performance and flexibility.it does not use opengl, vulkan, or directx – cherrie is built on its own custom rendering engine.
 
 ## project goals
 
@@ -21,15 +21,15 @@ raygl is a lightweight and powerful custom graphics api focused on performance a
 - compiler: gcc / clang / msvc
 - supported operating systems: windows and linux
 
-raygl is available as:
+cherrie is available as:
 
-- `raygl.dll` for windows (dynamic linking)
-- `libraygl.so` for linux (shared object)
-- `libraygl.a` for static linking (linux and unix-like systems)
+- `cherrie.dll` for windows (dynamic linking)
+- `libcherrie.so` for linux (shared object)
+- `libcherrie.a` for static linking (linux and unix-like systems)
 
-you can link raygl to your project using your preferred method:
+you can link cherrie to your project using your preferred method:
 
 ### static linking (example)
 
 ```bash
-g++ main.cpp -L./lib -lraygl -o myapp
+g++ main.cpp -L./lib -lcherrie -o myapp
